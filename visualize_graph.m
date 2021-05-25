@@ -82,4 +82,4 @@ fprintf('Made subgraph\n');
 % plot(graph, 'Layout', 'force', 'NodeLabel', graph.Nodes.Name, 'EdgeLabel', edge_labels);
 
 % Display the subgraph.
-plot(kanji_graph, 'Layout', 'force', 'NodeLabel', turtle_graph.Nodes.Name);
+plot(kanji_graph, 'Layout', 'force', 'NodeLabel', kanji_graph.Nodes.Name);
